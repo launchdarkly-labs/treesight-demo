@@ -14,7 +14,7 @@ The application should launch on `https://localhost:3000` and be ready to go!
 
 Note: By default it uses a feature flag with a key of `messaging` to control the visibility of the component. The login is hard coded to use our test user, Calvin. The Context structure is as follows - 
 
-```json
+```
  context: {
       kind: "multi",
       user: {
