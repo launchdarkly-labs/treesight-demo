@@ -17,7 +17,7 @@ export function Login({ setIsSignedIn }: { setIsSignedIn: (value: boolean) => vo
     const ldclient = useLDClient();
 
     function handleLogin() {
-        updateLDContext({ key: 1, name: 'Calvin', priceLevel: 'Enterprise' });
+        updateLDContext({ key: 1, name: 'unsound-tine', priceLevel: 'Enterprise' });
         setIsSignedIn(true);
       }
     
